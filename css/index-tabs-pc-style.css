@@ -1,0 +1,75 @@
+@media only screen and (min-width: 601px){
+    body{background-color: #f5f5f5;}
+    main{background-color: #f5f5f5;}
+
+    header{
+        height: 20vh;
+        background-color: white;
+    }
+
+    #upper-nav{width: 100vw;}
+    #upper-nav, #upper-nav-left, #upper-nav-right{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #search-section{display: inline-flex; align-items: center;}
+    #search-bar{
+        height: 5vh;
+        width: 40vw; 
+        background-color: #f5f5f5;
+        border: 0px;
+        border-radius: 1vh;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .logo{height: 10vh;}
+
+    #collapsible-sidepanel{
+        display: inline-flex;
+        flex-direction: row;
+        height: 10vh;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .top-section{display: none;}
+
+    #collapsible-sidepanel div span a{list-style-type: none; color: black;}
+
+
+    /*#upper-nav{
+        position: absolute;
+        width: 100%;
+        border: 1px solid blue;
+    }
+
+    #upper-nav-left{
+        display: flex;
+        position: relative;
+        float: left;
+        align-items: center;
+    }
+
+    #upper-nav-right{
+        display: flex;
+        position: relative;
+        float: right;
+        align-items: center;
+    }
+
+    #account-icon{height: 10vh; padding-right: 10vw;}
+
+    .logo{height: 6vh; padding: 2vh 10vw;} */
+
+    #search-icon{display: none;}
+    #burgermenu-closed{display: none;}
+
+    .grid-element{
+        margin: 3.7vw;
+        box-shadow: 5px 5px 5px #aaaaaa;
+    }
+}
